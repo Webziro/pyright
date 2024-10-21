@@ -69,7 +69,7 @@ The following settings control pyright’s diagnostic output (warnings or errors
 
 - **typeCheckingMode** ["off", "basic", "standard", "strict"]: Specifies the default rule set to use. Some rules can be overridden using additional configuration flags documented below. The default value for this setting is "standard". If set to "off", all type-checking rules are disabled, but Python syntax and semantic errors are still reported.
 
-- **ignore** [array of paths, optional]: Paths of directories or files whose diagnostic output (errors and warnings) should be suppressed even if they are an included file or within the transitive closure of an included file. Paths may contain wildcard characters ** (a directory or multiple levels of directories), * (a sequence of zero or more characters), or ? (a single character). This setting can be overridden in VS code in your settings.json.
+- **ignore** [array of paths, optional]: Paths of directories or files whose diagnostic output (errors and warnings) should be suppressed even if they are an included file or within the transitive closure of an included file. Paths may contain wildcard characters ** (a directory or multiple levels of directories), * (a sequence of zero or more characters), or? (a single character). This setting can be overridden in VS code in your settings.json.
 
 ### Type Check Rule Overrides
 
